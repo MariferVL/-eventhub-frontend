@@ -14,7 +14,7 @@ function Home() {
   return (
     <div>
       <h1>Bienvenido a EventHub</h1>
-      {/* <SearchBar /> */}
+      <SearchBar />
       <div className="events-container">
         {events.map(event => (
           <EventCard key={event.id} event={event} />
