@@ -16,6 +16,7 @@ const Login = () => {
       await loginUser({ username: email, password }); // Cambia 'email' a 'username' si es necesario
       navigate('/'); // Redirige a la página principal después del inicio de sesión
     } catch (err) {
+      console.log(`Error message: ${err}`);
       setError('Invalid email or password'); // Manejo de errores
     }
   };
