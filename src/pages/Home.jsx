@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import EventCard from '../components/EventCard';
-// import SearchBar from '../components/SearchBar';
+import SearchBar from '../components/SearchBar';
 
 function Home() {
   const [events, setEvents] = useState([]);
